@@ -1,0 +1,20 @@
+# How to see default shell?
+echo $0
+
+# How to see all available shells?
+cat /etc/shells
+or
+cat /etc/passwd
+
+# How to view your Linux distribution?
+cat /etc/os-release
+
+# How to view the last typed command?
+#echo ${0}  # need to check the command; else up and down arrow keys will work.
+
+# How to get the script name
+echo ${0}
+# How to get the 1st argument passed while script execution?
+echo ${1}
+
+
